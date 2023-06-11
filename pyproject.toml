@@ -13,12 +13,12 @@ requires = [
   "dask",
   "fsspec[http]",
   "ipytree",
-  "itkwidgets >=0.30.1",
+  "itkwidgets==0.30.1",
   "toolz",
   "xarray",
   "zarr",
   "requests",
-  "importlib-metadata <5.0",
+  "importlib-metadata",
   ]
 
 [tool.flit.metadata.requires-extra]
